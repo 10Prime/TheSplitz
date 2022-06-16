@@ -27,9 +27,16 @@
 
 ![image](https://user-images.githubusercontent.com/93136153/174135617-2445be87-78f8-4982-b770-7c12c0ed4c6f.png)
 
-
+- The Proceed button takes you here.
 - This is the Screen where expenses will be added for each person and calculations will be done
 - The button given below takes the user back to Adding names page.
+
+#Navigation03
+
+![image](https://user-images.githubusercontent.com/93136153/174138595-0e6ae7c7-8c8b-49c9-8426-2c21ff520cc0.png)
+
+- The Split Button takes you here
+- This screen will tell the remaining amount to be paid by each member after all the calculations
 
 # Concepts Used
 
