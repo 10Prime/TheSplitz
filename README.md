@@ -15,7 +15,7 @@
 
 #Navigation01
 
-![image](https://user-images.githubusercontent.com/93136153/174135130-186e1b13-1539-4cf0-a0df-0d9f28519d7a.png)
+![Screenshot (78)](https://user-images.githubusercontent.com/105490890/174143209-b57ae9ba-4b2a-485f-b4b2-030de53d7f92.png)
 
 
 - For Example if you select Group of three, you will be shown this screen.
@@ -25,7 +25,8 @@
 
 #Navigation02
 
-![image](https://user-images.githubusercontent.com/93136153/174135617-2445be87-78f8-4982-b770-7c12c0ed4c6f.png)
+![Screenshot (77)](https://user-images.githubusercontent.com/105490890/174142777-4b8e2a3f-ed3c-4e1d-9609-09b0a5ca0aa2.png)
+
 
 - The Proceed button takes you here.
 - This is the Screen where expenses will be added for each person and calculations will be done
