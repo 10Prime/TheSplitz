@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage">
+
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to splitz"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="15sp"
+        android:textSize="28sp"
+        android:textStyle="italic"
+        />
+
+    <ImageView
+        android:id="@+id/midIV"
+        android:layout_width="160dp"
+        android:layout_height="135dp"
+        android:layout_marginTop="20sp"
+        android:background="@color/teal_200"
+        android:src="@drawable/download"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/welcome" />
+
+    <TextView
+        android:id="@+id/groupSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Group:"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/midIV"
+        android:layout_marginTop="20sp"
+        android:textSize="20sp"
+        />
+
+    <ImageButton
+        android:id="@+id/grp2"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:src="@drawable/two_people"
+        app:layout_constraintTop_toBottomOf="@id/groupSize"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="50sp"
+        />
+
+    <EditText
+        android:id="@+id/grpname2"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/grp2"
+        app:layout_constraintStart_toStartOf="parent"
+        android:hint="Group of Two People"
+        android:layout_marginStart="25sp"
+        android:layout_marginTop="5sp"
+        />
+
+
+    <ImageButton
+        android:id="@+id/grp3"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:src="@drawable/three_people"
+        app:layout_constraintTop_toBottomOf="@id/groupSize"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="50sp"
+        />
+
+    <EditText
+        android:id="@+id/grpname3"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/grp3"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="25sp"
+        android:layout_marginTop="5sp"
+        android:hint="Group of Three People"
+        />
+
+    <ImageButton
+        android:id="@+id/grp4"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:src="@drawable/four_people"
+        app:layout_constraintTop_toBottomOf="@id/grpname2"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="50sp"
+        />
+
+    <EditText
+        android:id="@+id/grpname4"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/grp4"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="25sp"
+        android:layout_marginTop="5sp"
+        android:hint="Group of Four People"
+        />
+
+    <ImageButton
+        android:id="@+id/grp5"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:src="@drawable/five_people_5"
+        app:layout_constraintTop_toBottomOf="@id/grpname3"
+        android:background="@color/white"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="50sp"
+        />
+
+    <EditText
+        android:id="@+id/grpname5"
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/grp5"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="25sp"
+        android:layout_marginTop="5sp"
+        android:hint="Group of Five People"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

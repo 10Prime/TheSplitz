@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_host"
+    app:startDestination="@id/homePage">
+
+    <fragment
+        android:id="@+id/homePage"
+        android:name="com.akshat.thesplitz.HomePage"
+        android:label="fragment_home_page"
+        tools:layout="@layout/fragment_home_page" >
+        <action
+            android:id="@+id/action_homePage_to_person2"
+            app:destination="@id/person2" />
+        <action
+            android:id="@+id/action_homePage_to_person3"
+            app:destination="@id/person3" />
+        <action
+            android:id="@+id/action_homePage_to_person4"
+            app:destination="@id/person4" />
+        <action
+            android:id="@+id/action_homePage_to_person5"
+            app:destination="@id/person5" />
+    </fragment>
+    <fragment
+        android:id="@+id/person2"
+        android:name="com.akshat.thesplitz.person2"
+        android:label="fragment_person2"
+        tools:layout="@layout/fragment_person2" >
+        <action
+            android:id="@+id/action_person2_to_expense2"
+            app:destination="@id/expense2" />
+        <action
+            android:id="@+id/action_person2_to_done22"
+            app:destination="@id/done22" />
+    </fragment>
+    <fragment
+        android:id="@+id/person3"
+        android:name="com.akshat.thesplitz.person3"
+        android:label="fragment_person3"
+        tools:layout="@layout/fragment_person3" >
+        <action
+            android:id="@+id/action_person3_to_expense3"
+            app:destination="@id/expense3" />
+        <action
+            android:id="@+id/action_person3_to_done32"
+            app:destination="@id/done32" />
+    </fragment>
+    <fragment
+        android:id="@+id/person4"
+        android:name="com.akshat.thesplitz.person4"
+        android:label="fragment_person4"
+        tools:layout="@layout/fragment_person4" >
+        <action
+            android:id="@+id/action_person4_to_expense4"
+            app:destination="@id/expense4" />
+        <action
+            android:id="@+id/action_person4_to_done42"
+            app:destination="@id/done42" />
+    </fragment>
+    <fragment
+        android:id="@+id/person5"
+        android:name="com.akshat.thesplitz.person5"
+        android:label="fragment_person5"
+        tools:layout="@layout/fragment_person5" >
+        <action
+            android:id="@+id/action_person5_to_expense5"
+            app:destination="@id/expense5" />
+        <action
+            android:id="@+id/action_person5_to_done5"
+            app:destination="@id/done5" />
+    </fragment>
+    <fragment
+        android:id="@+id/expense2"
+        android:name="com.akshat.thesplitz.expense2"
+        android:label="fragment_expense2"
+        tools:layout="@layout/fragment_expense2" >
+        <action
+            android:id="@+id/action_expense2_to_person2"
+            app:destination="@id/person2" />
+    </fragment>
+    <fragment
+        android:id="@+id/expense3"
+        android:name="com.akshat.thesplitz.expense3"
+        android:label="fragment_expense3"
+        tools:layout="@layout/fragment_expense3" >
+        <action
+            android:id="@+id/action_expense3_to_person3"
+            app:destination="@id/person3" />
+    </fragment>
+    <fragment
+        android:id="@+id/expense4"
+        android:name="com.akshat.thesplitz.expense4"
+        android:label="fragment_expense4"
+        tools:layout="@layout/fragment_expense4" >
+        <action
+            android:id="@+id/action_expense4_to_person4"
+            app:destination="@id/person4" />
+    </fragment>
+    <fragment
+        android:id="@+id/expense5"
+        android:name="com.akshat.thesplitz.expense5"
+        android:label="fragment_expense5"
+        tools:layout="@layout/fragment_expense5" >
+        <action
+            android:id="@+id/action_expense5_to_person5"
+            app:destination="@id/person5" />
+    </fragment>
+    <fragment
+        android:id="@+id/done22"
+        android:name="com.akshat.thesplitz.done2"
+        android:label="fragment_done2"
+        tools:layout="@layout/fragment_done2" >
+        <action
+            android:id="@+id/action_done22_to_homePage"
+            app:destination="@id/homePage" />
+    </fragment>
+    <fragment
+        android:id="@+id/done32"
+        android:name="com.akshat.thesplitz.done3"
+        android:label="fragment_done3"
+        tools:layout="@layout/fragment_done3" >
+        <action
+            android:id="@+id/action_done32_to_homePage"
+            app:destination="@id/homePage" />
+    </fragment>
+    <fragment
+        android:id="@+id/done42"
+        android:name="com.akshat.thesplitz.done4"
+        android:label="fragment_done4"
+        tools:layout="@layout/fragment_done4" >
+        <action
+            android:id="@+id/action_done42_to_homePage"
+            app:destination="@id/homePage" />
+    </fragment>
+    <fragment
+        android:id="@+id/done5"
+        android:name="com.akshat.thesplitz.done5"
+        android:label="fragment_done5"
+        tools:layout="@layout/fragment_done5" >
+        <action
+            android:id="@+id/action_done5_to_homePage"
+            app:destination="@id/homePage" />
+    </fragment>
+</navigation>
