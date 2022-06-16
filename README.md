@@ -3,7 +3,7 @@
 - An Application that splits the expenses made by a group of people. 
 - Available options are group of 2,3,4 and 5 people.
 - Special Note : 16/06/2022 - This is just a Beta Version and doesn't function properly, although you can navigate between all the tabs. (To be updated)
-- Creaters - 10Prime, shashankRanaNoidaWala and BarryAllenCentralCity
+- Contributors https://github.com/10Prime, https://github.com/shashankRanaNoidaWala, https://github.com/BarryAllenCentralCity
 
 # Screenshots
 
