@@ -20,7 +20,8 @@
 
 - For Example if you select Group of three, you will be shown this screen.
 - Here you can add names of group members
-- This screen also has two floating buttons whose actions are Back and Proceed respectively
+- This screen also has two floating buttons whose actions are Split and Proceed respectively
+- Split Button takes you to the Final Split page
 
 #Navigation02
 
